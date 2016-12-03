@@ -36,7 +36,7 @@ for link in links:
 		i += 1
 
 
-current_time = datetime.now().time()
+current_time = datetime.utcnow().time()
 if current_time.hour > 17:
 	time_left = (24+17) - current_time.hour
 	TimePrint(current_time, time_left)
