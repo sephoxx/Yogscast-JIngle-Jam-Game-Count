@@ -41,5 +41,5 @@ if current_time.hour >= 17:
 	time_left = (24+16) - current_time.hour
 	TimePrint(current_time, time_left)
 else :
-	time_left = 17 - current_time.hour
+	time_left = 16 - current_time.hour
 	TimePrint(current_time, time_left)
